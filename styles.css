@@ -1,0 +1,167 @@
+body{
+	/*background-color:#000;*/
+	color:white;
+	font-family: Cambria, Georgia , serif;
+	font-size: 2em;
+	letter-spacing: .02em;
+}
+
+#run_browser{
+	display: block;
+}
+
+#run_mobile{
+	display: none;
+	background-color: white;
+}
+
+a:link { color: #64c9ff; text-decoration: none; }
+
+a:visited { color: #00517e; text-decoration: none; }
+
+a:hover { color: #ca4700; text-decoration: underline; }
+
+a:active { color: #ca4700; text-decoration: underline; }
+
+section{
+	background-color:#000;
+}
+
+.run_head{
+	text-align: center;
+}
+
+.run_head h1{
+	font-family:"MillerHeadlineBold", Georgia, serif;
+	font-weight: 900;
+	font-size: 4em;
+}
+
+#run_instruct{
+	font-size:.8em;
+	line-height: 1.6em;
+	text-align: center;
+}
+
+.run_sub{
+	text-align: center;
+	font-family: "MillerHeadline Light", Cambria, Georgia;
+	font-weight: 100;
+	font-size: 1.3em;
+	line-height:1.4;
+	width:45%;
+	margin:0 auto;
+	color:white;
+}
+
+.run_slide{
+	position:relative;
+	width:100%;
+	
+}
+
+.run_captionL{
+	float:left;
+	width:25%;
+	margin-top:2em;
+	font-size: .8em;
+	padding:2.5%;
+}
+
+.run_imgR{
+	float:left;
+	width:70%;
+}
+
+.run_mobileCaption{
+	font-size:1.3em;
+	width:80%;
+	margin:0 auto;
+}
+
+.run_captionRight{
+	position:absolute;
+	top: 0; 
+	right: 0; 
+	width: 40%;
+	font-family: Arial, sans-serif;
+	color:white;
+	padding:2em;
+}
+
+.run_day{
+	font-size:.8em;
+	margin-bottom: 1em;
+	letter-spacing: .08em;
+	position: relative;
+}
+
+.run_time{ color:red; }
+
+.run_result{ color:#bbb; }
+
+.run_text{ font-size:.8em; }
+
+.run_points{ padding-top:.2em; }
+
+.run_photocred{
+	text-align: right;
+	font-variant: small-caps;
+	font-size: .5em;
+}
+
+.run_bold{
+	font-weight:700;
+	padding-bottom:.2em;
+}
+
+.run_vert{
+	width: 30%;
+	position:absolute;
+	right:20%
+}
+
+/*FONTS*/
+
+@font-face {
+	font-family: "BentonSansCond Regular";
+	src: url("http://fonts.registerguard.com/benton/sanscondbold.eot");
+	src: url("http://fonts.registerguard.com/benton/sanscondbold.eot?#iefix") format("embedded-opentype"),
+		url("http://fonts.registerguard.com/benton/sanscondbold.woff") format("woff"),
+		url("http://fonts.registerguard.com/benton/sanscondbold.ttf") format("truetype"),
+		url("http://fonts.registerguard.com/benton/sanscondbold.svg#web") format("svg");
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "MillerHeadline Bold";
+	src: url("http://fonts.registerguard.com/miller/headlinebold.eot");
+	src: url("http://fonts.registerguard.com/miller/headlinebold.eot?#iefix") format("embedded-opentype"),
+		url("http://fonts.registerguard.com/miller/headlinebold.woff") format("woff"),
+		url("http://fonts.registerguard.com/miller/headlinebold.ttf") format("truetype"),
+		url("http://fonts.registerguard.com/miller/headlinebold.svg#web") format("svg");
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "MillerHeadline Light";
+	src: url("http://fonts.registerguard.com/miller/headlinelight.eot");
+	src: url("http://fonts.registerguard.com/miller/headlinelight.eot?#iefix") format("embedded-opentype"),
+		url("http://fonts.registerguard.com/miller/headlinelight.woff") format("woff"),
+		url("http://fonts.registerguard.com/miller/headlinelight.ttf") format("truetype"),
+		url("http://fonts.registerguard.com/miller/headlinelight.svg#web") format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family:"RGWeb";
+	src:url("http://fonts.registerguard.com/rg/rgweb.eot");
+	src:url("http://fonts.registerguard.com/rg/rgweb.eot?#iefix") format("embedded-opentype"),
+		url("http://fonts.registerguard.com/rg/rgweb.woff") format("woff"),
+		url("http://fonts.registerguard.com/rg/rgweb.ttf") format("truetype"),
+		url("http://fonts.registerguard.com/rg/rgweb.svg#RGWeb") format("svg");
+	font-weight:normal;font-style:normal;
+}
